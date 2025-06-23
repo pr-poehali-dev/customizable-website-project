@@ -20,9 +20,9 @@ const Header = () => {
               <Icon name="Shield" className="h-8 w-8 text-green-400" />
               <div>
                 <h1 className="text-xl font-bold text-white">
-                  Военная полиция
+                  Сайт Вооруженных сил Нижегородский области{" "}
                 </h1>
-                <p className="text-sm text-gray-300">Российская Федерация</p>
+                <p className="text-sm text-gray-300">Нижегородск</p>
               </div>
             </div>
           </div>
