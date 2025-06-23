@@ -12,17 +12,17 @@ import Icon from "@/components/ui/icon";
 
 const Header = () => {
   return (
-    <header className="bg-white border-b border-gray-200 shadow-sm">
+    <header className="bg-gray-900 border-b border-gray-700 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-4">
             <div className="flex items-center space-x-3">
-              <Icon name="Building2" className="h-8 w-8 text-blue-800" />
+              <Icon name="Shield" className="h-8 w-8 text-green-400" />
               <div>
-                <h1 className="text-xl font-bold text-gray-900">
-                  Министерство Цифрового Развития
+                <h1 className="text-xl font-bold text-white">
+                  Военная полиция
                 </h1>
-                <p className="text-sm text-gray-600">Российская Федерация</p>
+                <p className="text-sm text-gray-300">Российская Федерация</p>
               </div>
             </div>
           </div>
@@ -30,27 +30,37 @@ const Header = () => {
           <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                <NavigationMenuLink
+                  className={`${navigationMenuTriggerStyle()} text-gray-300 hover:text-white hover:bg-gray-800`}
+                >
                   Главная
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  Деятельность
+                <NavigationMenuLink
+                  className={`${navigationMenuTriggerStyle()} text-gray-300 hover:text-white hover:bg-gray-800`}
+                >
+                  Служба
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  Документы
+                <NavigationMenuLink
+                  className={`${navigationMenuTriggerStyle()} text-gray-300 hover:text-white hover:bg-gray-800`}
+                >
+                  Уставы
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  Руководство
+                <NavigationMenuLink
+                  className={`${navigationMenuTriggerStyle()} text-gray-300 hover:text-white hover:bg-gray-800`}
+                >
+                  Командование
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                <NavigationMenuLink
+                  className={`${navigationMenuTriggerStyle()} text-gray-300 hover:text-white hover:bg-gray-800`}
+                >
                   Контакты
                 </NavigationMenuLink>
               </NavigationMenuItem>

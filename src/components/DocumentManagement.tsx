@@ -11,22 +11,23 @@ import Icon from "@/components/ui/icon";
 const DocumentManagement = () => {
   const documents = [
     {
-      title: "Федеральный закон № 149-ФЗ",
+      title: "Устав военной полиции ВС РФ",
       description:
-        "Об информации, информационных технологиях и о защите информации",
+        "Основной документ, регламентирующий деятельность военной полиции",
       date: "2023-12-15",
-      type: "Законодательство",
+      type: "Устав",
     },
     {
-      title: "Стратегия цифровой трансформации",
-      description: "Национальная программа цифровой экономики до 2030 года",
-      date: "2023-11-28",
-      type: "Стратегия",
-    },
-    {
-      title: "Регламент предоставления услуг",
+      title: "Инструкция по дознанию",
       description:
-        "Административный регламент предоставления государственных услуг",
+        "Порядок проведения дознания по преступлениям против военной службы",
+      date: "2023-11-28",
+      type: "Инструкция",
+    },
+    {
+      title: "Регламент охраны объектов",
+      description:
+        "Административный регламент охраны и защиты военных объектов",
       date: "2023-11-20",
       type: "Регламент",
     },
@@ -37,10 +38,10 @@ const DocumentManagement = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Документооборот и официальные публикации
+            Нормативные документы
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Актуальные нормативные документы и регламенты министерства
+            Уставы, инструкции и регламенты военной полиции
           </p>
         </div>
 
@@ -60,7 +61,7 @@ const DocumentManagement = () => {
                         </CardDescription>
                         <div className="flex items-center space-x-4 text-sm text-gray-500">
                           <span>{doc.date}</span>
-                          <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded-full">
+                          <span className="px-2 py-1 bg-green-100 text-green-800 rounded-full">
                             {doc.type}
                           </span>
                         </div>
@@ -93,8 +94,8 @@ const DocumentManagement = () => {
                   />
                   <select className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
                     <option>Все типы документов</option>
-                    <option>Законодательство</option>
-                    <option>Стратегия</option>
+                    <option>Устав</option>
+                    <option>Инструкция</option>
                     <option>Регламент</option>
                   </select>
                   <Button className="w-full">Найти</Button>
@@ -111,12 +112,12 @@ const DocumentManagement = () => {
               </CardHeader>
               <CardContent>
                 <div className="space-y-3">
-                  <div className="p-3 bg-blue-50 rounded-md">
-                    <p className="text-sm font-medium text-blue-900">
+                  <div className="p-3 bg-green-50 rounded-md">
+                    <p className="text-sm font-medium text-green-900">
                       Новый документ
                     </p>
-                    <p className="text-xs text-blue-700">
-                      Опубликован регламент №2023-45
+                    <p className="text-xs text-green-700">
+                      Опубликована инструкция №2023-45
                     </p>
                   </div>
                   <div className="p-3 bg-gray-50 rounded-md">

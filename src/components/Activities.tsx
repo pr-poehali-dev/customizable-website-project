@@ -10,28 +10,28 @@ import Icon from "@/components/ui/icon";
 const Activities = () => {
   const activities = [
     {
-      icon: "Laptop",
-      title: "Цифровизация госуслуг",
+      icon: "Scale",
+      title: "Военная дисциплина",
       description:
-        "Разработка и внедрение цифровых государственных услуг для граждан и бизнеса",
+        "Контроль соблюдения воинской дисциплины и порядка в воинских частях",
     },
     {
       icon: "Shield",
-      title: "Информационная безопасность",
+      title: "Охрана правопорядка",
       description:
-        "Обеспечение защиты государственных информационных систем и персональных данных",
+        "Обеспечение законности и правопорядка на территории военных объектов",
     },
     {
-      icon: "Database",
-      title: "Управление данными",
+      icon: "Search",
+      title: "Расследование преступлений",
       description:
-        "Создание единой системы управления государственными данными и их аналитика",
+        "Дознание и расследование преступлений против военной службы",
     },
     {
-      icon: "Network",
-      title: "Цифровая инфраструктура",
+      icon: "Lock",
+      title: "Обеспечение безопасности",
       description:
-        "Развитие и поддержание цифровой инфраструктуры государственного сектора",
+        "Охрана и защита военных объектов, контроль режима секретности",
     },
   ];
 
@@ -40,11 +40,10 @@ const Activities = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Основные направления деятельности
+            Основные функции военной полиции
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Реализуем стратегические инициативы по цифровому развитию
-            государства
+            Выполняем задачи по поддержанию правопорядка в Вооруженных Силах
           </p>
         </div>
 
@@ -52,10 +51,10 @@ const Activities = () => {
           {activities.map((activity, index) => (
             <Card key={index} className="hover:shadow-lg transition-shadow">
               <CardHeader className="text-center">
-                <div className="mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
+                <div className="mx-auto mb-4 w-16 h-16 bg-green-100 rounded-full flex items-center justify-center">
                   <Icon
                     name={activity.icon}
-                    className="h-8 w-8 text-blue-800"
+                    className="h-8 w-8 text-green-800"
                   />
                 </div>
                 <CardTitle className="text-lg">{activity.title}</CardTitle>

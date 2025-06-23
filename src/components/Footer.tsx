@@ -7,18 +7,16 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <Icon name="Building2" className="h-8 w-8 text-blue-400" />
+              <Icon name="Shield" className="h-8 w-8 text-green-400" />
               <div>
-                <h3 className="text-xl font-bold">
-                  Министерство Цифрового Развития
-                </h3>
+                <h3 className="text-xl font-bold">Военная полиция</h3>
                 <p className="text-gray-400">Российская Федерация</p>
               </div>
             </div>
             <p className="text-gray-400 text-sm">
-              Федеральный орган исполнительной власти, осуществляющий функции по
-              выработке и реализации государственной политики в сфере цифрового
-              развития.
+              Специальная служба Вооруженных Сил РФ, обеспечивающая
+              правопорядок, воинскую дисциплину и безопасность в воинских частях
+              и на военных объектах.
             </p>
           </div>
 
@@ -28,18 +26,18 @@ const Footer = () => {
             </h4>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
-                <Icon name="MapPin" className="h-5 w-5 text-blue-400" />
+                <Icon name="MapPin" className="h-5 w-5 text-green-400" />
                 <span className="text-sm">
-                  125993, Москва, Тверская ул., д. 7
+                  125047, Москва, ул. Знаменка, д. 19
                 </span>
               </div>
               <div className="flex items-center space-x-3">
-                <Icon name="Phone" className="h-5 w-5 text-blue-400" />
-                <span className="text-sm">+7 (495) 123-45-67</span>
+                <Icon name="Phone" className="h-5 w-5 text-green-400" />
+                <span className="text-sm">+7 (495) 696-70-70</span>
               </div>
               <div className="flex items-center space-x-3">
-                <Icon name="Mail" className="h-5 w-5 text-blue-400" />
-                <span className="text-sm">info@digital.gov.ru</span>
+                <Icon name="Mail" className="h-5 w-5 text-green-400" />
+                <span className="text-sm">info@milpol.mil.ru</span>
               </div>
             </div>
           </div>
@@ -51,25 +49,25 @@ const Footer = () => {
                 href="#"
                 className="block text-sm text-gray-400 hover:text-white transition-colors"
               >
-                Госуслуги
+                Министерство обороны РФ
               </a>
               <a
                 href="#"
                 className="block text-sm text-gray-400 hover:text-white transition-colors"
               >
-                Единый портал госзакупок
+                Военная прокуратура
               </a>
               <a
                 href="#"
                 className="block text-sm text-gray-400 hover:text-white transition-colors"
               >
-                Федеральный реестр НПА
+                Главная военная прокуратура
               </a>
               <a
                 href="#"
                 className="block text-sm text-gray-400 hover:text-white transition-colors"
               >
-                Открытые данные
+                Военные суды РФ
               </a>
             </div>
           </div>
@@ -77,7 +75,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-sm text-gray-400">
-            © 2023 Министерство Цифрового Развития Российской Федерации. Все
+            © 2023 Военная полиция Вооруженных Сил Российской Федерации. Все
             права защищены.
           </p>
         </div>
