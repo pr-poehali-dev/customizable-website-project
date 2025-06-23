@@ -61,7 +61,7 @@ const Header = () => {
                 <NavigationMenuLink
                   className={`${navigationMenuTriggerStyle()} text-gray-300 hover:text-white hover:bg-gray-800`}
                 >
-                  Контакты
+                  Информация для подразделений{" "}
                 </NavigationMenuLink>
               </NavigationMenuItem>
             </NavigationMenuList>
